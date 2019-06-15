@@ -61,7 +61,7 @@ train_model <- lm(count~temp , df_train)
 
 summary(train_model)
 
-
+#from the results we can see that this model doesnt work for season and time series data, the values are increasing over the seasons and it would be unfair to perform linear regression on this. 
 
 
 
