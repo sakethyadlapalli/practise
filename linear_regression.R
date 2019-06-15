@@ -59,6 +59,7 @@ graph_5 <- ggplot(filter(df_train, workingday== 0), aes(hour,count)) +  geom_poi
 
 train_model <- lm(count~temp , df_train) 
 
+summary(train_model)
 
 
 
